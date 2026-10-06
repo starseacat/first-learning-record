@@ -13,3 +13,19 @@ blender基础复习
 （盲点1已解决）物体原点在质心（体积）导致旋转错误，放在物体的一端即可解决
 
 回看了一期小狐狸的视频，记住了实体化和晶格的使用（知识点5：晶格的使用）
+
+<img width="1223" height="768" alt="image" src="https://github.com/user-attachments/assets/5e185ddb-5584-4f7e-a699-8714a568f780" />
+增加节点：山体偏黄，与房子不搭，可直接增加“色相/饱和度/明度”节点进行调整，无需重新找材质（知识点6：节点的认识）
+
+<img width="1920" height="1080" alt="清晨" src="https://github.com/user-attachments/assets/2f2b5b9f-5b28-464e-ab51-d47322fe26d1" />
+<img width="1920" height="1080" alt="黄昏" src="https://github.com/user-attachments/assets/1e951fa7-6a1a-4542-9b31-37fb7a8e633f" />
+<img width="1920" height="1080" alt="傍晚" src="https://github.com/user-attachments/assets/081d335f-1ffb-4c86-80ed-c1f7b2d335f6" />
+
+视图≠渲染：渲染时布尔运算的物体、月亮光太阳光一起出现，只是隐藏物体没有作用，放进集合中，右键、可见性、渲染中禁用，即可解决问题（知识点7：视图≠渲染）
+
+清晨：日光，强度2.42，角度3°，旋转x75°、y0°、z45°；
+黄昏：日光，强度2.5，角度8°，旋转x65°、y0°、z45°；
+傍晚：日光，强度1.27，角度8.5°，旋转x88°、y0°、z-16°；
+各时间段的世界环境颜色、强度也均不同
+
+blender的复习回顾就到这里，明天开始进入正题：UE5的学习！
